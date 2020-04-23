@@ -10,7 +10,7 @@ gen: B461.toml
 
 wiki: index.adoc readme.adoc schedule.adoc assignments.adoc
 	touch $?
-	wiki.adoc -out="docs" -media="img,code,resources,students" -exclude="admin,tests,code,students,assn_unpub,notes_unpub,docs"
+	wiki.adoc -out="docs" -media="img,code,resources,students" -exclude="admin,tests,code,students,assn_unpub,notes_unpub,docs,.github"
 
 serve: all
 	devd -ol $(OUTPUT)

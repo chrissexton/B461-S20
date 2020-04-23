@@ -33,11 +33,14 @@ jobs:
       uses: actions/setup-ruby@v1
 
     # Runs a set of commands using the runners shell
-    - name: Install and run wiki.adoc
+    - name: Install and run wiki.adoc and semestergen
       run: |
         go get -u -v github.com/chrissexton/wiki.adoc
         go install -v github.com/chrissexton/wiki.adoc
+        go get -u -v github.com/chrissexton/semestergen
+        go install -v github.com/chrissexton/semestergen
         gem install asciidoctor
+        make gen
         make
         
     - name: Commit and push if README changed
