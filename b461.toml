@@ -1,0 +1,228 @@
+title       = "CSCI B461 Database Systems"
+
+start = 2020-01-13
+end = 2020-04-29
+daysoff = [2020-01-20, 2020-03-16, 2020-03-18]
+dueTime = "17:00"
+project = "B461 S20"
+icallink = "https://p69-caldav.icloud.com/published/2/ODAyMDEzOTc4MDIwMTM5N94ztwSKT_jdlVAfkXPPLbU2nNQy6Mgqe8TntkoXZEDEMpA4cJfVLSrNnonnVwdj_rarWjjFb0KOuLiQYGTvueE"
+
+office      = "LF122, M/W 15:30-17:00"
+meetings    = "M/W 13:00-14:50 in LF-143"
+
+instructor  = "Chris Sexton"
+phone       = "812-341-3465 (This is an answering machine.)"
+email       = "cwsexton@ius.edu"
+text        = "https://www.amazon.com/dp/0133970779[Fundamentals of Database Systems] by Elmasri and Navathe, Pearson Higher Education. ISBN: 978-0133970777"
+description = """
+B461 Database Concepts (4 cr.) Prerequisites: CSCI C343
+
+Introduction to database concepts and systems. Topics include database models and systems: hierarchical, network, relational, and object-oriented; database design principles; structures for efficient data access; query languages and processing; database applications development; views; security; concurrency; recovery. Students participate in a project to design, implement, and query a database, using a standard database system.
+"""
+
+TODO = ""
+
+evaltext = """
+* Inside & Outside Class Exercises
+** 10% of grade
+** Based on participation
+** Missing an activity cannot be made up
+** Drop lowest score
+* Labs
+** 15% of grade
+** All projects due at midnight on due date, sharp
+** Turned in via GitHub Classroom
+** Late submissions, even one minute late, will be accepted for 3 days at a maximum of 80%
+* Project
+** 30% of grade
+** Final grade for project effort
+** A group product
+* 2 Tests
+** 15% of grade
+** In class
+** One-sided crib sheed allowed
+* 1 Final
+** 15% of grade
+** Comprehensive
+** In class
+** One-sided crib sheet allowed
+"""
+
+resources = """
+* Git
+** https://www.coderomeos.org/getting-started-with-git-a-dead-simple-tutorial-for-beginners[Getting started with Git] - a dead simple tutorial for beginners
+** http://gitready.com/[Git Ready] - LEARN YOU SOME GIT FOR GREAT GOOD!
+** https://gitexercises.fracz.com/[Git Exercises]
+** https://www.atlassian.com/git/tutorials/comparing-workflows[Git Workflows]
+** https://www.atlassian.com/git/tutorials/atlassian-git-cheatsheet[Git Cheatsheet]
+** https://citizen428.net/blog/10-common-git-problems-and-how-to-fix-them/[10 Common Git Problems and How to Fix Them]
+** https://mukul-rathi.github.io/git-beginner-cheatsheet/[Git Beginner Cheatsheet]
+* Diagrams
+** https://bramp.github.io/js-sequence-diagrams/[JS Sequence Diagrams]
+** link:info/resources/ExampleSADCourseReg.pdf[Example 1 SAD]
+** link:info/resources/ExampleSoftArch.pdf[Example 2 SAD]
+** Visio (Accessible via https://storefront.iuanyware.iu.edu/vpn/index.html[IU Anywhere])
+** http://staruml.io/[Star UML]
+** http://argouml.tigris.org/[ArgoUML]
+** https://www.gliffy.com/uses/uml-software/[Gliffy Diagram Generator]
+*** Gliffy is a paid product for exporting images. A screenshot of your diagram in the UI is sufficient, but use this only if you can't get another tool to work well.
+** https://www.websequencediagrams.com/[Web Sequence Diagrams]
+"""
+
+[[days]]
+title ="Introduction"
+links = [{title = "Ch 01", url = "notes/resources/Chapter01.pdf"}]
+
+[[days]]
+title ="Concepts & Architecture"
+links = [{title = "Ch 02", url = "notes/resources/Chapter02.pdf"}]
+
+[[days]]
+title ="Entity Relationships"
+links = [{title = "Ch 03", url = "notes/resources/Chapter03.pdf"}]
+
+[[days]]
+title ="Enhanced ER"
+links = [{title = "Ch 04", url = "notes/resources/Chapter04.pdf"}]
+
+[[days]]
+title ="Data Formats"
+links = [{title = "Ch 13", url = "notes/resources/Chapter13.pdf"}]
+
+[[days]]
+title ="Data Formats"
+links = []
+
+[[days]]
+title ="Relational Data"
+links = [{title = "Ch 05", url = "notes/resources/Chapter05.pdf"}]
+
+[[days]]
+title ="Test 1"
+links = []
+
+[[days]]
+title ="SQL"
+links = [{title = "Ch 06", url = "notes/resources/Chapter06.pdf"}]
+
+[[days]]
+title ="More SQL"
+links = [{title = "Ch 07", url = "notes/resources/Chapter07.pdf"}]
+
+[[days]]
+title ="More SQL"
+links = [{title = "Ch 10", url = "notes/resources/Chapter10.pdf"}]
+
+[[days]]
+title ="Relational Algebra"
+links = [{title = "Ch 08", url = "notes/resources/Chapter08.pdf"}]
+
+[[days]]
+title ="Using SQL on the web"
+links = []
+
+[[days]]
+title ="Relational Design"
+links = [{title = "Ch 14", url = "notes/resources/Chapter14.pdf"}]
+
+[[days]]
+title ="Physical Storage"
+links = [{title = "Ch 16", url = "notes/resources/Chapter16.pdf"}]
+
+[[days]]
+title ="Test 2"
+links = []
+
+[[days]]
+title ="Indexing Systems"
+links = [{title = "Ch 17", url = "notes/resources/Chapter17.pdf"}, {title = "Part 1", url = "https://iu.mediaspace.kaltura.com/media/Indexing+Part+1/1_soflasl8"}, {title = "Part 2", url = "https://iu.mediaspace.kaltura.com/media/Indexing+Part+2/1_hs5hx4oz"}]
+
+[[days]]
+title ="NoSQL Databases"
+links = [{title = "Ch 24", url = "notes/resources/Chapter24.pdf"}, {title = "Intro to MongoDB", url = "https://iu.mediaspace.kaltura.com/media/Intro+to+MongoDB/1_t3z3o0sq"}, {title = "Using MongoDB", url = "https://iu.mediaspace.kaltura.com/media/Using+MongoDB/1_pw8fai7h"}, {title = "Aggregation Pipeline", url = "https://iu.mediaspace.kaltura.com/media/Aggregation+Pipeline/1_wechq54t"}, {title = "More Mongo Pipelines", url = "https://iu.mediaspace.kaltura.com/media/More+Mongo+Pipelines/1_1f7uk8jn"}]
+
+[[days]]
+title ="Transactions"
+links = [{title = "Ch 20", url = "notes/locked.html"}]
+
+[[days]]
+title ="Optimizations"
+links = [{title = "Ch 18", url = "notes/locked.html"}]
+
+[[assignments]]
+title = "Student Profile"
+links = [{title = "Survey", url = "https://forms.gle/JpR5yNBK5e11BEGMA"}]
+due = 2
+assigned = 1
+
+[[assignments]]
+title = "Homework 1"
+links = [{title = "Architecture", url = "assn/resources/homework1.pdf"}]
+due = 3
+assigned = 2
+
+[[assignments]]
+title = "Homework 2"
+links = [{title = "ER Diagrams", url = "assn/resources/homework2.pdf"}]
+due = 5
+assigned = 3
+
+[[assignments]]
+title = "Homework 3"
+links = [{title = "Data Formats - in class", url = "assn/locked.html"}]
+due = 7
+assigned = 5
+
+[[assignments]]
+title = "Test 1"
+links = []
+due = 8
+assigned = 8
+
+[[assignments]]
+title = "Homework 4"
+links = [{title = "Relational Data", url = "https://classroom.github.com/a/R8JypWqr"}, {title = "CSLabs VM", url = "https://iuscsg.org/cslabs/module/703f5f9e-52d7"}]
+due = 12
+assigned = 10
+
+[[assignments]]
+title = "Homework 5"
+links = [{title = "SQL", url = "https://classroom.github.com/a/uXbMKytC"}]
+due = 15
+assigned = 13
+
+[[assignments]]
+title = "Homework 6"
+links = [{title = "Relational Algebra", url = "assn/hw6.html"}]
+due = 17
+assigned = 14
+
+[[assignments]]
+title = "Test 2"
+links = []
+due = 17
+assigned = 17
+
+[[assignments]]
+title = "Homework 8"
+links = [{title = "NoSQL - updated", url = "https://classroom.github.com/a/oj9ttsek"}, {title = "Setup Instructions", url = "https://iu.mediaspace.kaltura.com/media/Setting+Up+MongoDB+Cloud/1_7a5jg7k7"}]
+due = 27
+assigned = 24
+
+[[assignments]]
+title = "Final"
+links = []
+due = 27
+assigned = 27
+
+[[evaluation]]
+title = "Homework"
+value = "35%"
+
+[[evaluation]]
+title = "Exams"
+value = "55%"
+
+[[evaluation]]
+title = "In-Class"
+value = "10%"

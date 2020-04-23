@@ -1,0 +1,11 @@
+= Homework 6
+
+== Relational Algebra
+
+Please complete the following. Feel free to do this work on a computer using word processing and drawing tools where necessary, by hand, or some mixture of the two. Turn homework in class. Remember that this is Relational Algebra, not SQL. Do not turn in SQL. If you would like to do this digitally (please), Word has an excellent equation editor with the necessary functions, as does any reasonable LaTeX output such as the program LyX creates.
+
+* Chapter 8, pg 280-288:
+** Read _8.4.2 Aggregate Functions and Grouping_ to answer questions with aggregate functions.
+** 8.1
+** 8.16 b, c, f (write relational algebra)
+** 8.17 referencing figures on pg 172

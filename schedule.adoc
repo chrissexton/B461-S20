@@ -1,0 +1,69 @@
+
+:Ch-01: link:notes/resources/Chapter01.pdf
+:Ch-02: link:notes/resources/Chapter02.pdf
+:Ch-03: link:notes/resources/Chapter03.pdf
+:Ch-04: link:notes/resources/Chapter04.pdf
+:Ch-13: link:notes/resources/Chapter13.pdf
+:Ch-05: link:notes/resources/Chapter05.pdf
+:Ch-06: link:notes/resources/Chapter06.pdf
+:Ch-07: link:notes/resources/Chapter07.pdf
+:Ch-10: link:notes/resources/Chapter10.pdf
+:Ch-08: link:notes/resources/Chapter08.pdf
+:Ch-14: link:notes/resources/Chapter14.pdf
+:Ch-16: link:notes/resources/Chapter16.pdf
+:Ch-17: link:notes/resources/Chapter17.pdf
+:Part-1: link:https://iu.mediaspace.kaltura.com/media/Indexing+Part+1/1_soflasl8
+:Part-2: link:https://iu.mediaspace.kaltura.com/media/Indexing+Part+2/1_hs5hx4oz
+:Ch-24: link:notes/resources/Chapter24.pdf
+:Intro-to-MongoDB: link:https://iu.mediaspace.kaltura.com/media/Intro+to+MongoDB/1_t3z3o0sq
+:Using-MongoDB: link:https://iu.mediaspace.kaltura.com/media/Using+MongoDB/1_pw8fai7h
+:Aggregation-Pipeline: link:https://iu.mediaspace.kaltura.com/media/Aggregation+Pipeline/1_wechq54t
+:More-Mongo-Pipelines: link:https://iu.mediaspace.kaltura.com/media/More+Mongo+Pipelines/1_1f7uk8jn
+:Ch-20: link:notes/locked.html
+:Ch-18: link:notes/locked.html
+
+[%header,format=psv,cols="^5h,47d,47a"]
+|===
+| Day | Topics                                                          | Notes
+
+|  1   | Introduction   | {Ch-01}[Ch 01]
+
+|  2   | Concepts & Architecture   | {Ch-02}[Ch 02]
+
+|  3   | Entity Relationships   | {Ch-03}[Ch 03]
+
+|  4   | Enhanced ER   | {Ch-04}[Ch 04]
+
+|  5   | Data Formats   | {Ch-13}[Ch 13]
+
+|  6   | Data Formats   | 
+
+|  7   | Relational Data   | {Ch-05}[Ch 05]
+
+|  8   | Test 1   | 
+
+|  9   | SQL   | {Ch-06}[Ch 06]
+
+|  10   | More SQL   | {Ch-07}[Ch 07]
+
+|  11   | More SQL   | {Ch-10}[Ch 10]
+
+|  12   | Relational Algebra   | {Ch-08}[Ch 08]
+
+|  13   | Using SQL on the web   | 
+
+|  14   | Relational Design   | {Ch-14}[Ch 14]
+
+|  15   | Physical Storage   | {Ch-16}[Ch 16]
+
+|  16   | Test 2   | 
+
+|  17   | Indexing Systems   | {Ch-17}[Ch 17]; {Part-1}[Part 1]; {Part-2}[Part 2]
+
+|  18   | NoSQL Databases   | {Ch-24}[Ch 24]; {Intro-to-MongoDB}[Intro to MongoDB]; {Using-MongoDB}[Using MongoDB]; {Aggregation-Pipeline}[Aggregation Pipeline]; {More-Mongo-Pipelines}[More Mongo Pipelines]
+
+|  19   | Transactions   | {Ch-20}[Ch 20]
+
+|  20   | Optimizations   | {Ch-18}[Ch 18]
+
+|===

@@ -1,0 +1,65 @@
+= SQL
+B461 Homework 4
+:stem: asciimath
+:source-highlighter: pygments
+:icons: font
+
+== Setup
+
+=== Docker Compose
+
+https://docker.com[Docker] is a handy technology for running services on a machine in a repeatable way that can easily be cleaned.  https://docs.docker.com/compose/[Docker Compose] allows you to use a configuration file to specify common Docker commands in a configuration file.
+
+. Set up Docker Compose on your system following the instructions in the https://docs.docker.com/compose/install/[Install Compose] section of the documentation.
+. Clone the https://github.com/pthom/northwind_psql[northwind_psql git repository]
+. Add the following lines to the `docker-compose.yml` file properly indented and just after the "image" line
++
+[code,yml]
+----
+ports:
+  - "5432:5432"
+----
+. Run `docker-compose up`
+
+
+You may now connect to the database using the credentials found in the yml file.
+
+=== Fully Installing Postgres
+
+If you don't want to use docker, you can potentially just fully install Postgres. This is probably more difficult.
+
+You can find an installation package and instructions for your particular system at https://www.postgresql.org/download/[PostGreSQL Downloads]. You should get the latest version possible. If you cannot complete the assignment due to administrative access to a machine, please let me know as early as possible and we can arrange access to a database machine. This will not be possible if you wait to complete the assignment. It is your responsibility to inform me of this need before the end of the day on Feb 19.
+
+After installation, verify that you have commandline access to the `psql` command. Any GUI used may be helpful, but ultimately you will be graded by your script running through the `psql` command on an empty database.
+
+=== Tips
+
+Connecting to a database:: `psql -h <hostname> -d <database name> -U <username>`
+
+Default passwords:: Your installation will likely have a default username and password to use as an administrator. On Windows, you will have set this during the installation process. Be sure to pay attention to that value. The default user is `postgres`. You may need to reset that user's password in Windows to reset the password if you forget.
+
+Executing scripts:: `psql -h ⟨hostname⟩ -d ⟨database⟩ -U ⟨username⟩ -f ⟨file⟩`
+
+Dumping/loading data:: You may find the `pg_restore` and `pg_dump` commands useful to export and import data. They follow a similar argument structure to `psql` and you can find more information with their `--help` flags.
+
+== From the book
+
+. Create tables that match the schema in figure 5.6, the `COMPANY` database in your book. Include all necessary constraints.
+. Add new tables to track expenses by employees and paychecks to employees.
+. Insert matching information to the data seen in the book so that the queries you write will match.
+. Please complete all parts of problem 6.10 (The `COMPANY` database) from chapter 6 as a valid Postgres script. You will need to reference chapter 5 in order to complete the correct work.
+
+== Turn in
+
+Your work must be in the form of a single SQL script that is runnable via the commandline psql command. 
+
+== Evaluation
+
+WARNING: *I will not correct your syntax errors.* You must turn in a script that executes to earn credit.
+
+Your task is to create this database with a sensible schema based on the information given in the chapter. You will create your tables with correct data types and include all relevant constraints including foreign keys.
+
+For a maximum total of 15 points:
+
+. The schema and data is worth 9 points.
+. Each query is worth 2 points.

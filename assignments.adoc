@@ -1,0 +1,43 @@
+
+:Survey: link:https://forms.gle/JpR5yNBK5e11BEGMA
+:Architecture: link:assn/resources/homework1.pdf
+:ER-Diagrams: link:assn/resources/homework2.pdf
+:Data-Formats---in-class: link:assn/locked.html
+:Relational-Data: link:https://classroom.github.com/a/R8JypWqr
+:CSLabs-VM: link:https://iuscsg.org/cslabs/module/703f5f9e-52d7
+:SQL: link:https://classroom.github.com/a/uXbMKytC
+:Relational-Algebra: link:assn/hw6.html
+:NoSQL---updated: link:https://classroom.github.com/a/oj9ttsek
+:Setup-Instructions: link:https://iu.mediaspace.kaltura.com/media/Setting+Up+MongoDB+Cloud/1_7a5jg7k7
+
+[%header,format=psv,cols="^20h,^20h,<60d"]
+|===
+| Given  | Due Date    | Assignment
+
+|  01-13   | 01-15   | Student Profile: {Survey}[Survey]
+
+|  01-15   | 01-22   | Homework 1: {Architecture}[Architecture]
+
+|  01-22   | 01-29   | Homework 2: {ER-Diagrams}[ER Diagrams]
+
+|  01-29   | 02-05   | Homework 3: {Data-Formats---in-class}[Data Formats - in class]
+
+|  02-10   | 02-10   | Test 1: 
+
+|  02-17   | 02-24   | Homework 4: {Relational-Data}[Relational Data]; {CSLabs-VM}[CSLabs VM]
+
+|  02-26   | 03-04   | Homework 5: {SQL}[SQL]
+
+|  03-02   | 03-11   | Homework 6: {Relational-Algebra}[Relational Algebra]
+
+|  03-11   | 03-11   | Test 2: 
+
+|  04-13   | 04-22   | Homework 8: {NoSQL---updated}[NoSQL - updated]; {Setup-Instructions}[Setup Instructions]
+
+|  04-22   | 04-22   | Final: 
+
+|===
+
+
+These events are in a public calendar you may add to your own calendar software: https://p69-caldav.icloud.com/published/2/ODAyMDEzOTc4MDIwMTM5N94ztwSKT_jdlVAfkXPPLbU2nNQy6Mgqe8TntkoXZEDEMpA4cJfVLSrNnonnVwdj_rarWjjFb0KOuLiQYGTvueE[Published iCal Link]
+
