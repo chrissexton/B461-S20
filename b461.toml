@@ -206,14 +206,14 @@ assigned = 17
 [[assignments]]
 title = "Homework 8"
 links = [{title = "NoSQL - updated", url = "https://classroom.github.com/a/oj9ttsek"}, {title = "Setup Instructions", url = "https://iu.mediaspace.kaltura.com/media/Setting+Up+MongoDB+Cloud/1_7a5jg7k7"}]
-due = 27
+duedate = 2020-04-27
 assigned = 24
 
 [[assignments]]
 title = "Final"
 links = []
-due = 27
-assigned = 27
+duedate = 2020-04-27
+assigned = 2020-04-22
 
 [[evaluation]]
 title = "Homework"
