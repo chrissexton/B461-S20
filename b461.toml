@@ -213,7 +213,7 @@ assigned = 24
 title = "Final"
 links = []
 duedate = 2020-04-27
-assigned = 2020-04-22
+assigneddate = 2020-04-22
 
 [[evaluation]]
 title = "Homework"

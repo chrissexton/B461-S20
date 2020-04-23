@@ -1,4 +1,4 @@
-
+:nofooter:
 :Survey: link:https://forms.gle/JpR5yNBK5e11BEGMA
 :Architecture: link:assn/resources/homework1.pdf
 :ER-Diagrams: link:assn/resources/homework2.pdf
@@ -32,9 +32,9 @@
 
 |  03-11   | 03-11   | Test 2: 
 
-|  04-13   | 04-22   | Homework 8: {NoSQL---updated}[NoSQL - updated]; {Setup-Instructions}[Setup Instructions]
+|  04-13   | 04-27   | Homework 8: {NoSQL---updated}[NoSQL - updated]; {Setup-Instructions}[Setup Instructions]
 
-|  04-22   | 04-22   | Final: 
+|  04-22   | 04-27   | Final: 
 
 |===
 

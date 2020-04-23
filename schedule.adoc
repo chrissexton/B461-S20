@@ -1,4 +1,4 @@
-
+:nofooter:
 :Ch-01: link:notes/resources/Chapter01.pdf
 :Ch-02: link:notes/resources/Chapter02.pdf
 :Ch-03: link:notes/resources/Chapter03.pdf
