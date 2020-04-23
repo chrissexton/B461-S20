@@ -5,8 +5,8 @@ SOURCES:=$(wildcard *.adoc)
 	
 all: wiki
 
-gen: B461.toml
-	semestergen B461.toml
+gen: b461.toml
+	semestergen b461.toml
 
 wiki: index.adoc readme.adoc schedule.adoc assignments.adoc
 	touch $?
